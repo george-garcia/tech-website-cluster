@@ -1,0 +1,38 @@
+.cards {
+    border-left: 1px solid var(--primary-color-900);
+    padding-left: 1rem;
+}
+
+.card-icon {
+    font-size: 3.2rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+    color: var(--primary-color-300);
+
+    background-color: var(--dark-color-900);
+    padding: 1rem;
+    border-radius: 50%;
+
+    /*position: relative;*/
+}
+
+/*.card-icon::before {*/
+/*    content: "";*/
+/*    position: absolute;*/
+/*    padding: 3rem;*/
+/*    background-color: red;*/
+/*    z-index: -1;*/
+/*    border-radius: 50%;*/
+
+/*    transform: translate(-24%, -22%);*/
+/*}*/
+
+.card-name {
+    font-size: 2.4rem;
+    margin-bottom: 3rem;
+
+}
+.card-summary {
+    font-size: 1.8rem;
+    line-height: 1.5;
+}

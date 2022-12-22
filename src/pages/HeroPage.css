@@ -1,0 +1,28 @@
+.hero-page {
+    background-image: url("../img/techdemo.png");
+    height: 115vh;
+
+    margin-bottom: 4rem;
+}
+
+.heading-primary {
+    font-size: 4.8rem;
+    color: #fff;
+
+    /*background: linear-gradient(to right, var(--primary-color-400), var(--secondary-color-500));*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+    margin-top: 10rem;
+}
+
+.heading-text {
+    margin-top: 3.2rem;
+    color: white;
+    font-size: 2.4rem;
+    line-height: 1.6;
+}
+
+.heading-grid {
+    display: grid;
+    grid-template-columns: 45fr 55fr;
+}
