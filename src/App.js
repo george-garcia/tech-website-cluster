@@ -12,6 +12,7 @@ function App() {
         <Sponsors/>
         <ProductPage/>
         <WhatWeDo/>
+        <HowWeDoIt/>
         </div>
     );
 }

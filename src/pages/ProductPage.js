@@ -35,10 +35,10 @@ function ProductPage() {
             <div className="container">
                 <h2 className="product-page-header">Solutions today for a brighter tomorrow</h2>
                 <div className="cards-container">
-                    <Card content={cloud}/>
-                    <Card content={application}/>
-                    <Card content={data}/>
-                    <Card content={security}/>
+                    <Card border light content={cloud}/>
+                    <Card border light content={application}/>
+                    <Card border light content={data}/>
+                    <Card border light content={security}/>
                 </div>
             </div>
         </div>

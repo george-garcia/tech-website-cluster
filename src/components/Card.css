@@ -1,19 +1,30 @@
 .cards {
+}
+
+.cards--border {
     border-left: 1px solid var(--primary-color-900);
     padding-left: 1rem;
+
 }
 
 .card-icon {
     font-size: 3.2rem;
-    margin-bottom: 3rem;
     display: inline-block;
+}
+.card-icon--light {
     color: var(--primary-color-300);
-
     background-color: var(--dark-color-900);
     padding: 1rem;
     border-radius: 50%;
 
+    margin-bottom: 2.6rem;
+
     /*position: relative;*/
+}
+
+.card-icon--dark {
+    margin-bottom: 1.6rem;
+    color: var(--primary-color-300);
 }
 
 /*.card-icon::before {*/
@@ -29,10 +40,26 @@
 
 .card-name {
     font-size: 2.4rem;
-    margin-bottom: 3rem;
-
+    margin-bottom: 2rem;
+    font-weight: 500;
 }
+
+.card-name--light {
+}
+
+.card-name--dark {
+    color: white;
+}
+
 .card-summary {
     font-size: 1.8rem;
     line-height: 1.5;
+}
+
+.card-summary--light {
+
+}
+
+.card-summary--dark {
+    color: var(--text-light-100);
 }
