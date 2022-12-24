@@ -29,7 +29,7 @@ function HowWeDoIt() {
     });
 
     return (
-        <div className="diagonal-box section-how">
+        <div className="diagonal-box diagonal-box--dark section-how">
             <div className="diagonal-box-content">
                 <div className="grid grid-2-cols how-grid">
                     <div className="how-main-text-container">

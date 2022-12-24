@@ -1,0 +1,48 @@
+.section-OurTeam {
+    /*margin-bottom: 9.6rem;*/
+    /*background-color: var(--text-light-100);*/
+    /*position: relative;*/
+    /*padding-top: 30rem;*/
+
+    /*padding-bottom: 14rem;*/
+    /*margin-top: 20rem;*/
+    background-color: #24262c;
+}
+
+.team-content {
+}
+
+.team-header {
+    font-size: 3.6rem;
+    padding-bottom: 2rem;
+    margin-bottom: 4.8rem;
+    display: inline-block;
+    /*border-bottom: 5px solid black;*/
+    font-weight: 600;
+    letter-spacing: -2px;
+
+    background-image: linear-gradient(to right, var(--primary-color-400), var(--secondary-color-500));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.team-main {
+    font-size: 8rem;
+    font-weight: 900;
+    margin-bottom: 1.6rem;
+
+    /*background-color: #f3ec78;*/
+    background-image: linear-gradient(to right, var(--primary-color-400), var(--secondary-color-500));
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.team-text {
+    font-size: 2rem;
+    color: var(--text-light-100);
+    /*text-transform: uppercase;*/
+    font-weight: 700;
+}

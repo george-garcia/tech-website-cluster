@@ -1,0 +1,27 @@
+.section-footer {
+    background-color: var(--text-light-100);
+    padding-top: 10rem;
+}
+
+.footer-links {
+    font-size: 1.6rem;
+    border-top: 2px solid var(--dark-color-900);
+    padding: 2rem 0;
+    display: flex;
+    gap: 2rem;
+
+}
+
+.footer-link:link,
+.footer-link:visited {
+    text-decoration: none;
+    color: var(--dark-color-900);
+
+
+}
+
+.footer-link:hover,
+.footer-link:active {
+    padding-bottom: .5rem;
+    border-bottom: 1px solid var(--dark-color-900);
+}

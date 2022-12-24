@@ -1,40 +1,5 @@
 .section-how {
-
-}
-
-.diagonal-box {
-    position: relative;
-        /*background-image: linear-gradient(45deg, #654ea3, #eaafc8);*/
-
-}
-
-.diagonal-box::before {
-    content: "";
-    position: absolute;
-    /*padding: 30rem;*/
-    /*background-color: red;*/
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--dark-color-900);
-    transform: skewY(-8deg);
-}
-
-.diagonal-box-content {
-    max-width: 130em;
-    margin: 0 auto;
-    padding: 0 3.2rem;
-    position: relative;
-
-    padding-top: 18rem;
-}
-
-.diagonal-box-content:last-child{
-    padding-bottom: 20rem;
-}
-
-.diagonal-box-content {
+    margin-bottom: 15rem;
 }
 
 .columns {
@@ -42,7 +7,7 @@
 }
 
 .how-grid {
-    gap: 5rem;
+    gap: 8rem;
     margin-bottom: 6.4rem;
 }
 
