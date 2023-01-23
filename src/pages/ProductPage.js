@@ -20,7 +20,7 @@ function ProductPage() {
     const data = {
         icon: <HiOutlineFolderOpen/>,
         name: 'Data',
-        summary: 'Extract value and actionable insights from your data to improve customer experiences and drive new revenue streams'
+        summary: 'Unlock the value of your data through actionable insights and drive business growth. Improve customer experiences and generate new revenue streams'
     };
 
     const security = {

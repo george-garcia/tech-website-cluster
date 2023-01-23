@@ -7,7 +7,6 @@ import WhatWeDo from "./pages/WhatWeDo";
 import OurTeam from "./pages/OurTeam";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./pages/Footer";
-
 function App() {
     return (
         <div>

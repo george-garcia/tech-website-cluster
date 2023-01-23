@@ -11,10 +11,10 @@ function HeroPage() {
             <Nav links={navLinks}/>
             <div className="header-container heading-grid">
                 <div>
-                    <h1 className="heading-primary">Lorem ipsum dolor sit amet, consectet</h1>
-                    <p className="heading-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias at autem
-                        beatae dolorum ducimus earum eius eum excepturi exercitationem, harum magni minus necessitatibus
-                        nulla perspiciatis porro quibusdam unde vel velit</p>
+                    <h1 className="heading-primary">Navigate the Digital Landscape with Confidence</h1>
+                    <p className="heading-text">Our team of experts is here to simplify your path forward
+                        and help you achieve your business goals. Our always-on approach
+                        and seamless scalability will ensure that we're with you every step of the way.</p>
                     <a href="#" className="btn btn--full"><span>Quote now</span></a>
                 </div>
             </div>

@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
 
     const links = [
-        'Cluster Services', 'Privacy Notice', 'Responsibility', 'Hotline', 'Sitemap'
+        'CyberFortressIT', 'Privacy Notice', 'Responsibility', 'Hotline', 'Sitemap'
     ];
 
     const renderedLinks = links.map(link => {

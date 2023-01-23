@@ -8,7 +8,7 @@ function Nav({ links }) {
 
     return (
         <div className="header header-container">
-            <span className="logo">Cluster Services</span>
+            <span className="logo">CyberFortressIT</span>
             <nav className="main-nav">
                 <ul className="main-nav-list">
                     {renderedLinks}

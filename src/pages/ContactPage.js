@@ -15,7 +15,9 @@ function ContactPage() {
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+        // form.current.name = name;
+
+        emailjs.sendForm(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, form.current, process.env.REACT_APP_PUBLIC_KEY)
             .then((result) => {
                 console.log(result.text);
             }, (error) => {
@@ -23,7 +25,6 @@ function ContactPage() {
             });
 
         setShowModal(true);
-
     };
 
     const handleClose = () => {
@@ -52,20 +53,21 @@ function ContactPage() {
                     <div className="grid grid-2-cols contact-grid-container">
                         <form ref={form} onSubmit={sendEmail} className="contact-form">
                             <input className="contact-form--input" onChange={(e) => setName(e.target.value)}
-                                   value={name} type="text" placeholder="John Smith"/>
+                                   value={name} type="text" name="user_name" placeholder="Your Name"/>
                             <input className="contact-form--input" onChange={(e) => setEmail(e.target.value)}
-                                   value={email}
-                                   type="email" placeholder="your@email.com"/>
+                                   value={email} name={"user_email"}
+                                   type="email" placeholder="Your@Email.com"/>
                             <textarea onChange={(e) => setMessage(e.target.value)}
-                                      value={message} placeholder="your message"/>
+                                      value={message} placeholder="Your Message" name={"message"}/>
                             <input className="contact-form--button" type="submit" value="Send Email"/>
+
                         </form>
                         <div>
-                            <h3 className="contact-subheader">Lorem ipsum dolor sit amet, consectetur.</h3>
-                            <p className="contact-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                Consequuntur, in, provident. Eius expedita neque odio omnis quibusdam reprehenderit
-                                tempora! Architecto cupiditate doloribus ea libero neque repellat sequi tempora totam
-                                voluptatem.</p>
+                            <h3 className="contact-subheader">Connect with Us: Reach Out for a Consultation</h3>
+                            <p className="contact-text">Our team of experts will work with you to understand your unique
+                                needs and develop solutions to help you achieve smarter business
+                                outcomes. We're ready to help optimize your costs, maximize your performance, and
+                                evolve for a changing market.</p>
                         </div>
                     </div>
                 </div>
@@ -73,7 +75,6 @@ function ContactPage() {
         </div>
     );
 }
-
 
 
 export default ContactPage;

@@ -36,13 +36,13 @@
 }
 
 .how-img-container {
-    background-image: linear-gradient(to bottom, rgba(45, 212, 191, 0.25), rgba(45, 212, 191, 0.25)), url("../img/white-board.jpg");
+    background-image: linear-gradient(to bottom, rgba(45, 212, 191, 0.25), rgba(45, 212, 191, 0.25)), url("../img/white-board-final.jpg");
     width: 90%;
     /*background-image: url("../img/white-board.jpg");*/
     background-size: cover;
     border-radius: 11px;
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
+    /*-webkit-transform: scaleX(-1);*/
+    /*transform: scaleX(-1);*/
 }
 
 .how-img {
