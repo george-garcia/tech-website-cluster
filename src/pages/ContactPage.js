@@ -25,6 +25,9 @@ function ContactPage() {
             });
 
         setShowModal(true);
+        setName('');
+        setEmail('');
+        setMessage('');
     };
 
     const handleClose = () => {
