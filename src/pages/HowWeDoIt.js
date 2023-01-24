@@ -30,7 +30,7 @@ function HowWeDoIt() {
     return (
         <div className="diagonal-box diagonal-box--dark section-how">
             <div className="diagonal-box-content">
-                <div className="grid grid-2-cols how-grid">
+                <div className="how-grid">
                     <div className="how-main-text-container">
                         <h2 className="how-header">Expertise in Execution: Our Approach to Driving Business Success</h2>
                         <p className="how-text">
@@ -42,7 +42,8 @@ function HowWeDoIt() {
                         </p>
                     </div>
 
-                    <div className="how-img-container text-center">
+
+                    <div className="how-img-container">
                     </div>
                 </div>
 

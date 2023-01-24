@@ -7,6 +7,7 @@ import WhatWeDo from "./pages/WhatWeDo";
 import OurTeam from "./pages/OurTeam";
 import ContactPage from "./pages/ContactPage";
 import Footer from "./pages/Footer";
+import './queries.css';
 function App() {
     return (
         <div>

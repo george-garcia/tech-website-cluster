@@ -32,7 +32,7 @@ function ProductPage() {
 
     return (
         <div className="section-product-page">
-            <div className="container">
+            <div className="container product-page--container">
                 <h2 className="product-page-header">Solutions today for a brighter tomorrow</h2>
                 <div className="cards-container">
                     <Card border light content={cloud}/>

@@ -1,0 +1,139 @@
+/*
+
+    1rem = 1 em = 16px
+
+    BELOW 1344px Smaller Desktops
+
+ */
+
+@media (max-width: 84em) {
+
+    .hero-page {
+        /*background-size: cover;*/
+        min-height: 100vh;
+    }
+
+    .header-container {
+        margin-left: 15rem;
+    }
+
+    .heading-primary {
+        font-size: 4.2rem;
+    }
+
+    .heading-text{
+        /*font-size: 2rem;*/
+    }
+    .heading-grid {
+        grid-template-columns: 50fr 50fr;
+    }
+
+
+
+
+
+    .how-img-container {
+        width: 100%;
+        /*justify-self: center;*/
+    }
+
+    /*.text-center {*/
+    /*    text-align: right;*/
+    /*}*/
+}
+
+/*
+
+        BELOW 1200px Landscape Tablets
+
+ */
+
+@media (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+
+    .main-nav-list {
+        gap: 5rem;
+    }
+
+
+
+
+
+}
+
+/*
+
+        BELOW 944px Tablets
+
+ */
+
+@media (max-width: 59em) {
+    html {
+        font-size: 50%;
+    }
+    
+
+    .sponsors {
+        width: 80%;
+        justify-content: space-between;
+        margin: 0 auto;
+        margin-bottom: 9.6rem;
+    }
+
+    .sponsors img {
+        height: 2.4rem;
+    }
+
+    .product-page--container {
+        width: 80%;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+    }
+
+    .cards {
+        width: 80%;
+        margin-bottom: 5rem;
+        justify-self: center;
+    }
+
+    .product-page-header {
+        font-size: 3.6rem;
+        text-align: left;
+        /*width: 80%;*/
+        margin-bottom: 6rem;
+    }
+
+    .section-whatWeDo {
+        width: 80%;
+    }
+
+    .how-grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 2fr;
+        /*width: 80%;*/
+    }
+
+    .how-main-text-container {
+        width: 80%;
+        justify-self: center;
+    }
+
+    .how-img-container {
+        width: 80%;
+        justify-self: center;
+    }
+
+    .how-cards {
+        gap: 3rem;
+        grid-template-columns: 1fr;
+        /*width: 80%;*/
+        /*margin: 0 auto;*/
+    }
+
+    
+}

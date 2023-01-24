@@ -1,6 +1,11 @@
 .hero-page {
     background-image: url("../img/techdemo.jpg");
-    height: 115vh;
+    background-size: cover;
+    /*max-height: 115vh;*/
+    /*min-height: 100vh;*/
+    min-height: 115vh;
+
+    /*height: 100%;*/
 
     margin-bottom: 4rem;
 }

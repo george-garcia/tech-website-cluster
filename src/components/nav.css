@@ -26,7 +26,8 @@
     display: flex;
     list-style: none;
     gap:8rem;
-
+    margin-right: 2rem;
+    /*padding-right: 2rem;*/
 }
 
 .nav-item {
@@ -72,6 +73,7 @@
     padding: 1.6rem 4rem;
     background: var(--primary-color-400);
 }
+
 
 /*.btn--full:hover span,*/
 /*.btn--full:active span{*/
