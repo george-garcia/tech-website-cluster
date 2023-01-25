@@ -6,12 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="13dc6dad-aed1-4315-8ca9-ad08ce841b12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/nav.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/nav.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HeroPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HeroPage.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HowWeDoIt.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HowWeDoIt.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/HowWeDoIt.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/HowWeDoIt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/ProductPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ProductPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queries.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/queries.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,21 +27,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/george/Documents/GitHub/tech-website-cluster&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/george/Documents/GitHub/portfolio",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -56,7 +51,8 @@
       <option name="presentableId" value="Default" />
       <updated>1674432917567</updated>
       <workItem from="1674432933480" duration="15332000" />
-      <workItem from="1674523581979" duration="13424000" />
+      <workItem from="1674523581979" duration="13527000" />
+      <workItem from="1674618732229" duration="1655000" />
     </task>
     <servers />
   </component>
