@@ -4,5 +4,5 @@ services:
     build: .
     container_name: react_app
     ports:
-      - "8080:80"  # Caddy will forward to 8080
+      - "8081:80"  # Caddy will forward to 8080
     restart: unless-stopped
